@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	str := "selamat malam"
+	str := "selamat malam, golang cohort"
 
 	charCount := make(map[string]int)
 
@@ -14,6 +14,5 @@ func main() {
 		charCount[string(char)]++
 	}
 
-	// Mencetak hasil map
 	fmt.Println(charCount)
 }
